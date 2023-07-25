@@ -1,4 +1,8 @@
 {
+  "csrf": {
+    "mp_csrf_name": "mp_csrf64b6ea4947745",
+    "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
+  },
   "transactions": [
     {
       "id": "637dcc6a5ab52",
@@ -867,6 +871,10 @@
       "verified": true,
       "admin": false,
       "customer_service": true,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": true,
       "manage_users": false,
       "batch_files": false,
@@ -909,6 +917,34 @@
         "city": false,
         "postal_code": false,
         "id_selfie_verification_option": false
+      },
+      "summary": {
+        "transactions_today": {
+          "value": 122,
+          "status": "up",
+          "index": "3.3%",
+          "period": "This Month"
+        },
+        "todays_volume": {
+          "value": 12433.54,
+          "currency": "USD",
+          "status": "plus",
+          "index": "467.00",
+          "period": "Today"
+        },
+        "payees": {
+          "value": 199,
+          "status": "down",
+          "index": "1.1%",
+          "period": "This Month"
+        },
+        "available_balance": {
+          "value": 54256.63,
+          "currency": "USD",
+          "status": "up",
+          "index": "5.7%",
+          "period": "This Month"
+        }
       },
       "chart": [
         {
@@ -1388,6 +1424,10 @@
       "verified": false,
       "admin": true,
       "customer_service": true,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": true,
       "manage_users": true,
       "batch_files": false,
@@ -1915,6 +1955,10 @@
       "verified": true,
       "admin": true,
       "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": false,
       "manage_users": false,
       "batch_files": true,
@@ -2032,6 +2076,10 @@
       "verified": true,
       "admin": false,
       "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": false,
       "manage_users": false,
       "batch_files": false,
@@ -2149,6 +2197,10 @@
       "verified": true,
       "admin": false,
       "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": false,
       "manage_users": false,
       "batch_files": false,
@@ -2266,6 +2318,10 @@
       "verified": false,
       "admin": false,
       "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
       "compliance": false,
       "manage_users": false,
       "batch_files": false,
@@ -2452,6 +2508,22 @@
       "name": "API Key - Beta",
       "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2NzQ2NTc2MzAsImV4cCI6MTcwNjE5MzYzMCwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueTEiLCJTdXJuYW1lIjoiUm9ja2V0MiIsIkVtYWlsIjoianJvY2tldEBleGFtcGxlLmNvbSIsIlJvbGUiOlsiMU1hbmFnZXIyIiwiUHJvamVjdCBBZG1pbmlzdHJhdG9yMiJdfQ.RizEtbZNQykR0vjoUCSvVjqEXVnRH6mC9MngVzbzl44",
       "status": "Paused",
+      "created": "07/19/2022"
+    }
+  ],
+  "webhooks": [
+    {
+      "id": 123,
+      "name": "Webhook Secret",
+      "key": "9cebcbbc-11e8-11ee-be56-0242ac120002",
+      "status": "Active",
+      "created": "07/19/2022"
+    },
+    {
+      "id": 124,
+      "name": "Webhook Secret",
+      "key": "4991459a-11e9-11ee-be56-0242ac120002",
+      "status": "Inactive",
       "created": "07/19/2022"
     }
   ],
@@ -2701,71 +2773,101 @@
       "id": 1,
       "logo": "https://picsum.photos/id/42/200",
       "name": "MassPay",
-      "category": "general",
+      "industry": "general",
       "address1": "2366 Canyon RD, Splingville",
       "address2": "CA 90405 United States",
       "inc_date": "March 27, 2019",
       "reg_number": "2019-000848336",
       "rep_name": "Jeff Katz",
+      "age": 18,
       "dob": "05/12/1977",
       "demo": true,
-      "active": true
+      "active": true,
+      "fortressTrust": true,
+      "balance": {
+        "amount": 10929.99,
+        "currency": "USD"
+      }
     },
     {
       "id": 2,
       "logo": "https://picsum.photos/id/43/200",
       "name": "MassPay",
-      "category": "MLM",
+      "industry": "MLM",
       "address1": "2366 Canyon RD, Splingville",
       "address2": "CA 90405 United States",
       "inc_date": "March 27, 2019",
       "reg_number": "2019-000848336",
       "rep_name": "Jeff Katz",
+      "age": 18,
       "dob": "05/12/1977",
       "demo": true,
-      "active": true
+      "active": true,
+      "fortressTrust": false,
+      "balance": {
+        "amount": 7233.99,
+        "currency": "USD"
+      }
     },
     {
       "id": 3,
       "logo": "https://picsum.photos/id/44/200",
       "name": "MassPay",
-      "category": "general",
+      "industry": "general",
       "address1": "2366 Canyon RD, Splingville",
       "address2": "CA 90405 United States",
       "inc_date": "March 27, 2019",
       "reg_number": "2019-000848336",
       "rep_name": "Jeff Katz",
+      "age": 18,
       "dob": "05/12/1977",
       "demo": true,
-      "active": false
+      "active": false,
+      "fortressTrust": false,
+      "balance": {
+        "amount": 30238.99,
+        "currency": "USD"
+      }
     },
     {
       "id": 4,
       "logo": "https://picsum.photos/id/42/200",
       "name": "MassPay",
-      "category": "general",
+      "industry": "general",
       "address1": "2366 Canyon RD, Splingville",
       "address2": "CA 90405 United States",
       "inc_date": "March 27, 2019",
       "reg_number": "2019-000848336",
       "rep_name": "Jeff Katz",
+      "age": 18,
       "dob": "05/12/1977",
       "demo": false,
-      "active": true
+      "active": true,
+      "fortressTrust": true,
+      "balance": {
+        "amount": 3647.99,
+        "currency": "USD"
+      }
     },
     {
       "id": 5,
       "logo": "https://picsum.photos/id/42/200",
       "name": "MassPay",
-      "category": "general",
+      "industry": "general",
       "address1": "2366 Canyon RD, Splingville",
       "address2": "CA 90405 United States",
       "inc_date": "March 27, 2019",
       "reg_number": "2019-000848336",
       "rep_name": "Jeff Katz",
+      "age": 18,
       "dob": "05/12/1977",
       "demo": false,
-      "active": false
+      "active": false,
+      "fortressTrust": false,
+      "balance": {
+        "amount": 9838266.99,
+        "currency": "USD"
+      }
     }
   ],
   "balances": [
@@ -3796,6 +3898,24 @@
       }
     ]
   },
+  "industry": [
+    {
+      "id": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "name": "General"
+    },
+    {
+      "id": "b4dcbbf0-88aa-403d-8192-c70df5cbf16f",
+      "name": "Crypto"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104f",
+      "name": "MLM"
+    },
+    {
+      "id": "701d9be4-0ab4-423d-97e9-6c049fc7af06",
+      "name": "Adult"
+    }
+  ],
   "metadata": {
     "page": 1,
     "offset": 0,

@@ -11,6 +11,7 @@ server.use(jsonServer.bodyParser);
 server.use(middlewares);
 server.use(router);
 
+// PORT MUST BE 3000
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => {
