@@ -857,6 +857,223 @@
       "image": "https://picsum.photos/id/17/200"
     }
   ],
+  "dashboard_data": {
+    "image": "https://picsum.photos/id/42/200",
+    "name": "John Doe",
+    "first_name": "John",
+    "middle_name": "",
+    "last_name": "Doe",
+    "summary": {
+      "transactions_today": {
+        "value": 122,
+        "status": "up",
+        "index": "3.3%",
+        "period": "This Month"
+      },
+      "todays_volume": {
+        "value": 12433.54,
+        "currency": "USD",
+        "status": "plus",
+        "index": "467.00",
+        "period": "Today"
+      },
+      "payees": {
+        "value": 199,
+        "status": "down",
+        "index": "1.1%",
+        "period": "This Month"
+      },
+      "available_balance": {
+        "value": 54256.63,
+        "currency": "USD",
+        "status": "up",
+        "index": "5.7%",
+        "period": "This Month"
+      },
+      "volume": {
+        "value": 122,
+        "status": "up",
+        "index": "3.3%",
+        "period": "This Month",
+        "chartSeriesBar": [
+          {
+            "name": "Country A",
+            "data": [44, 55, 41, 67, 22, 43]
+          },
+          {
+            "name": "Country B",
+            "data": [13, 23, 20, 8, 13, 27]
+          },
+          {
+            "name": "Country C",
+            "data": [11, 17, 15, 15, 21, 14]
+          },
+          {
+            "name": "Country D",
+            "data": [21, 7, 25, 13, 22, 8]
+          }
+        ],
+        "chartLegend": [
+          {
+            "month": "jan"
+          },
+          {
+            "month": "feb"
+          },
+          {
+            "month": "mar"
+          },
+          {
+            "month": "apr"
+          },
+          {
+            "month": "may"
+          },
+          {
+            "month": "jun"
+          }
+        ],
+        "legendSeries": [
+          {
+            "description": "United States",
+            "data1": "715",
+            "data2": "86%"
+          },
+          {
+            "description": "Europe",
+            "data1": "86",
+            "data2": "10%"
+          },
+          {
+            "description": "India",
+            "data1": "20",
+            "data2": "3%"
+          },
+          {
+            "description": "Mexico",
+            "data1": "14",
+            "data2": "2%"
+          }
+        ]
+      },
+      "daily_distribution": {
+        "value": 95,
+        "status": "down",
+        "index": "3.3%",
+        "period": "Today",
+        "chartSeries": [44, 55, 41, 17, 15],
+        "legendSeries": [
+          {
+            "description": "Completed",
+            "data1": "53",
+            "data2": "60%"
+          },
+          {
+            "description": "Ready for Pickup",
+            "data1": "26",
+            "data2": "25%"
+          },
+          {
+            "description": "Pending",
+            "data1": "8",
+            "data2": "8%"
+          },
+          {
+            "description": "Processing",
+            "data1": "6",
+            "data2": "6%"
+          },
+          {
+            "description": "Cancelled",
+            "data1": "3",
+            "data2": "2%"
+          }
+        ]
+      },
+      "transactions": {
+        "value": 24,
+        "status": "up",
+        "index": "7.1%",
+        "period": "Today",
+        "chartSeries": [
+          {
+            "month": "jan",
+            "loaded": 7300.99,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "legendSeries": [
+          {
+            "description": "Completed",
+            "data1": "19",
+            "data2": "85%"
+          },
+          {
+            "description": "Unresolved",
+            "data1": "3",
+            "data2": "15%"
+          }
+        ]
+      }
+    },
+    "chart": [
+      {
+        "month": "jan",
+        "loaded": 7300.99,
+        "payed_out": 720.0
+      },
+      {
+        "month": "feb",
+        "loaded": 5200.0,
+        "payed_out": 540.0
+      },
+      {
+        "month": "mar",
+        "loaded": 4900.0,
+        "payed_out": 2000.0
+      },
+      {
+        "month": "apr",
+        "loaded": 7900.0,
+        "payed_out": 620.0
+      },
+      {
+        "month": "may",
+        "loaded": 5800.0,
+        "payed_out": 3000.0
+      },
+      {
+        "month": "jun",
+        "loaded": 8200.0,
+        "payed_out": 899.0
+      }
+    ]
+  },
   "users": [
     {
       "id": 123123,
