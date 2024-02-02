@@ -3,8 +3,8 @@
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
-  "user": {
-    "info": {
+  "dashboard": {
+    "user": {
       "id": 123123,
       "image": "https://picsum.photos/id/42/200",
       "name": "John Doe",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "card_transfer": [
+    "last_transfers": [
       {
         "name": "Michael Friedman",
         "type": "ETH Transfer",
@@ -677,70 +677,70 @@
     {
       "id": 1,
       "name": "Binance USD",
-      "image": "http://",
+      "image": "https://criptonizando.com/wp-content/uploads/2022/02/E%CC%81-uma-boa-hora-para-comprar-Binance-Coin--750x375.png",
       "type": "Crypto",
       "fee": { "amount": 13.0, "currency": "USD" }
     },
     {
       "id": 2,
       "name": "Bitcoin",
-      "image": "http://",
+      "image": "https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/pexels-pixabay-315788-scaled.jpg",
       "type": "Crypto",
       "fee": { "amount": 8.0, "currency": "USD" }
     },
     {
       "id": 3,
       "name": "Ethereum",
-      "image": "http://",
+      "image": "https://www.forbes.com/advisor/wp-content/uploads/2021/03/ethereum-1.jpeg",
       "type": "Crypto",
       "fee": { "amount": 8.0, "currency": "USD" }
     },
     {
       "id": 4,
       "name": "DAI",
-      "image": "http://",
+      "image": "https://image.coinpedia.org/wp-content/uploads/2022/06/01183955/Litecoin.webp",
       "type": "Crypto",
       "fee": { "amount": 33.0, "currency": "USD" }
     },
     {
       "id": 5,
       "name": "Tether",
-      "image": "http://",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tether_USDT.png/600px-Tether_USDT.png?20211129171143",
       "type": "Crypto",
       "fee": { "amount": 3.0, "currency": "USD" }
     },
     {
       "id": 6,
       "name": "USD Coin",
-      "image": "http://",
+      "image": "https://img.freepik.com/free-psd/dollar-sign-gold-coin-icon-isolated-3d-render-illustration_439185-12780.jpg?w=740&t=st=1706876011~exp=1706876611~hmac=681b452fdbe20048c898622c174b893b9cb8a4b728efb48108634f1bd0782385",
       "type": "Crypto",
       "fee": { "amount": 3.0, "currency": "USD" }
     },
     {
       "id": 7,
       "name": "Issue Physical Card & Local Funds",
-      "image": "http://",
+      "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
       "fee": { "amount": 3.5, "currency": "USD" }
     },
     {
       "id": 8,
       "name": "Issue Virtual Card & Local Funds",
-      "image": "http://",
+      "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
       "fee": { "amount": 3.5, "currency": "USD" }
     },
     {
       "id": 9,
       "name": "Load Physical Card",
-      "image": "http://",
+      "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
       "fee": { "amount": 3.5, "currency": "USD" }
     },
     {
       "id": 10,
       "name": "Load Virtual Card",
-      "image": "http://",
+      "image": "https://www.pymnts.com/wp-content/uploads/2020/12/conferma-pay-VISA-cropped.jpg?w=620",
       "type": "Card",
       "fee": { "amount": 3.5, "currency": "USD" }
     }
