@@ -194,16 +194,17 @@
     ]
   },
   "user_profile": {
+    "full_name": "John Doe",
     "image": "https://picsum.photos/id/46/200",
-    "two_factor_authentication": true,
     "email": "john@email.com",
     "phone": "(123) 456 7890",
     "address1": "123 Main St",
     "address2": "",
     "city": "Santa Monica",
-    "postal_code": "90405",
+    "zip": "90405",
     "state_province": "California",
     "country": "CA",
+    "two_factor_authentication": true,
     "email_notifications": false,
     "sms_notifications": true
   },
