@@ -21,7 +21,7 @@
       },
       "todays_volume": {
         "value": 12433.54,
-        "currency": "USD",
+        "currency": "PNTS",
         "status": "plus",
         "index": "467.00",
         "period": "Today"
@@ -41,49 +41,49 @@
           "days": "03 - 12",
           "month": "jan",
           "loaded": 7300.99,
-          "payed_out": 720.0
+          "payed_out": 720
         },
         {
           "days": "01 - 22",
           "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
+          "loaded": 5200,
+          "payed_out": 540
         },
         {
           "days": "04 - 17",
           "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
+          "loaded": 4900,
+          "payed_out": 2000
         },
         {
           "days": "10 - 29",
           "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
+          "loaded": 7900,
+          "payed_out": 620
         },
         {
           "days": "04 - 20",
           "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
+          "loaded": 5800,
+          "payed_out": 3000
         },
         {
           "days": "02 - 30",
           "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
+          "loaded": 8200,
+          "payed_out": 899
         },
         {
           "days": "09 - 12",
           "month": "jul",
-          "loaded": 8200.0,
-          "payed_out": 2322.0
+          "loaded": 8200,
+          "payed_out": 2322
         },
         {
           "days": "02 - 28",
           "month": "ago",
-          "loaded": 2344.0,
-          "payed_out": 1000.0
+          "loaded": 2344,
+          "payed_out": 1000
         }
       ]
     },
@@ -94,7 +94,7 @@
         "date": "08/12/2023",
         "amount": {
           "currency": "USD",
-          "value": 500.0
+          "value": 500
         }
       },
       {
@@ -103,7 +103,7 @@
         "date": "06/11/2023",
         "amount": {
           "currency": "USD",
-          "value": 900.0
+          "value": 900
         }
       },
       {
@@ -112,7 +112,7 @@
         "date": "05/10/2023",
         "amount": {
           "currency": "USD",
-          "value": 900.0
+          "value": 900
         }
       },
       {
@@ -121,7 +121,7 @@
         "date": "08/12/2023",
         "amount": {
           "currency": "USD",
-          "value": 900.0
+          "value": 900
         }
       }
     ],
@@ -131,12 +131,10 @@
         "type": "masspay",
         "title": "Masspay Wallet",
         "card_number": "7654",
-        "expiration": "12/30",
-        "cvv": "123",
         "active": true,
         "amount": {
           "currency": "USD",
-          "value": 27999.0
+          "value": 27999
         }
       },
       {
@@ -144,25 +142,10 @@
         "type": "visa",
         "title": "EUR Debit",
         "card_number": "0987",
-        "expiration": "12/30",
-        "cvv": "123",
         "active": true,
         "amount": {
-          "currency": "EUR",
+          "currency": "PNTS",
           "value": 23098.98
-        }
-      },
-      {
-        "id": 127,
-        "type": "visa",
-        "title": "BRL Debit",
-        "card_number": "0123",
-        "expiration": "12/30",
-        "cvv": "321",
-        "active": true,
-        "amount": {
-          "currency": "BRL",
-          "value": 1002.0
         }
       },
       {
@@ -170,8 +153,6 @@
         "type": "mastercard",
         "title": "EUR Debit",
         "card_number": "9876",
-        "expiration": "12/30",
-        "cvv": "123",
         "active": true,
         "amount": {
           "currency": "EUR",
@@ -183,31 +164,36 @@
         "type": "masspay",
         "title": "EUR Debit",
         "card_number": "1029",
-        "expiration": "12/30",
-        "cvv": "123",
         "active": true,
         "amount": {
           "currency": "EUR",
-          "value": 68000.0
+          "value": 68000
+        }
+      },
+      {
+        "id": 127,
+        "type": "visa",
+        "title": "BRL Debit",
+        "card_number": "0123",
+        "active": true,
+        "amount": {
+          "currency": "BRL",
+          "value": 1002
         }
       }
     ]
   },
   "user_profile": {
-    "name": "John Doe",
-    "image": "https://picsum.photos/id/46/200",
-    "email": "john@email.com",
+    "mp_csrf_name": "mp_csrf64b6ea4947745",
+    "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ==",
     "phone": "123 456 7890",
-    "dob": "08/21/1998",
+    "dob": "1987-05-27",
     "address1": "123 Main St",
     "address2": "",
-    "city": "",
-    "zip": "90405",
-    "state": "California",
     "country": "US",
-    "two_factor_authentication": true,
-    "email_notifications": false,
-    "sms_notifications": true,
+    "state": "California",
+    "city": "Cidade",
+    "zip": "90405",
     "phone_confirmation_required": false
   },
   "countries": [
@@ -292,62 +278,62 @@
         {
           "month": "jan",
           "value1": 7300.99,
-          "value2": 3788.0
+          "value2": 3788
         },
         {
           "month": "feb",
-          "value1": 6344.0,
-          "value2": 3982.0
+          "value1": 6344,
+          "value2": 3982
         },
         {
           "month": "mar",
           "value1": 5672.99,
-          "value2": 4782.0
+          "value2": 4782
         },
         {
           "month": "apr",
-          "value1": 7123.0,
-          "value2": 3899.0
+          "value1": 7123,
+          "value2": 3899
         },
         {
           "month": "may",
           "value1": 6123.99,
-          "value2": 4787.0
+          "value2": 4787
         },
         {
           "month": "jun",
           "value1": 7939.99,
-          "value2": 4912.0
+          "value2": 4912
         },
         {
           "month": "jul",
           "value1": 5671.99,
-          "value2": 4092.0
+          "value2": 4092
         },
         {
           "month": "aug",
           "value1": 6128.99,
-          "value2": 3012.0
+          "value2": 3012
         },
         {
           "month": "sep",
           "value1": 5677.99,
-          "value2": 4987.0
+          "value2": 4987
         },
         {
           "month": "oct",
           "value1": 7001.99,
-          "value2": 4012.0
+          "value2": 4012
         },
         {
           "month": "nov",
           "value1": 7300.99,
-          "value2": 4567.0
+          "value2": 4567
         },
         {
           "month": "dec",
           "value1": 5667.99,
-          "value2": 4999.0
+          "value2": 4999
         }
       ]
     },
@@ -356,7 +342,7 @@
       "balance": [
         {
           "title": "Account Balance",
-          "value": 33000.0,
+          "value": 33000,
           "currency": "EUR",
           "status": "up",
           "index": "1.9%",
@@ -373,63 +359,63 @@
       "chart": [
         {
           "month": "jan",
-          "value1": 5237.0,
-          "value2": 3567.0
+          "value1": 5237,
+          "value2": 3567
         },
         {
           "month": "feb",
-          "value1": 8765.0,
-          "value2": 1233.0
+          "value1": 8765,
+          "value2": 1233
         },
         {
           "month": "mar",
           "value1": 9883.99,
-          "value2": 4272.0
+          "value2": 4272
         },
         {
           "month": "apr",
-          "value1": 8239.0,
-          "value2": 2333.0
+          "value1": 8239,
+          "value2": 2333
         },
         {
           "month": "may",
           "value1": 9883.99,
-          "value2": 3989.0
+          "value2": 3989
         },
         {
           "month": "jun",
           "value1": 2338.99,
-          "value2": 1233.0
+          "value2": 1233
         },
         {
           "month": "jul",
           "value1": 9873.99,
-          "value2": 7366.0
+          "value2": 7366
         },
         {
           "month": "aug",
           "value1": 1233.99,
-          "value2": 1233.0
+          "value2": 1233
         },
         {
           "month": "sep",
           "value1": 8736.99,
-          "value2": 3129.0
+          "value2": 3129
         },
         {
           "month": "oct",
           "value1": 7001.99,
-          "value2": 4012.0
+          "value2": 4012
         },
         {
           "month": "nov",
           "value1": 7300.99,
-          "value2": 4567.0
+          "value2": 4567
         },
         {
           "month": "dec",
           "value1": 5667.99,
-          "value2": 4999.0
+          "value2": 4999
         }
       ]
     }
@@ -445,10 +431,22 @@
       "time": "07:19 PM",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 41243.0, "currency": "USD" },
-      "received": { "value": 234.0, "currency": "USD" },
-      "fee": { "value": 43.0, "currency": "USD" },
-      "fx": { "value": 23.0, "currency": "USD" },
+      "sent": {
+        "value": 41243,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 234,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 43,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 23,
+        "currency": "USD"
+      },
       "status": "Pending"
     },
     {
@@ -461,10 +459,22 @@
       "time": "07:19 AM",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 213.0, "currency": "USD" },
-      "received": { "value": 3.0, "currency": "USD" },
-      "fee": { "value": 123123.0, "currency": "USD" },
-      "fx": { "value": 55.0, "currency": "USD" },
+      "sent": {
+        "value": 213,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 123123,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 55,
+        "currency": "USD"
+      },
       "status": "Pending"
     },
     {
@@ -477,10 +487,22 @@
       "time": "10:33 AM",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 290387.0, "currency": "USD" },
-      "received": { "value": 3847.0, "currency": "USD" },
-      "fee": { "value": 8374.0, "currency": "USD" },
-      "fx": { "value": 923.0, "currency": "USD" },
+      "sent": {
+        "value": 290387,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 3847,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 8374,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 923,
+        "currency": "USD"
+      },
       "status": "Cancelled"
     },
     {
@@ -493,10 +515,22 @@
       "time": "08:45 PM",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Completed"
     },
     {
@@ -509,10 +543,22 @@
       "time": "08:55",
       "payer": "Bank Wire",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "BRL" },
-      "received": { "value": 41.0, "currency": "BRL" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "BRL"
+      },
+      "received": {
+        "value": 41,
+        "currency": "BRL"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Pending"
     },
     {
@@ -525,10 +571,22 @@
       "time": "11:22",
       "payer": "Bank Wire",
       "type": "Bank Deposit *",
-      "sent": { "value": 34567.0, "currency": "CNY" },
-      "received": { "value": 41.0, "currency": "CNY" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "CNY"
+      },
+      "received": {
+        "value": 41,
+        "currency": "CNY"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Completed"
     },
     {
@@ -541,10 +599,22 @@
       "time": "08:14",
       "payer": "Bank Wire",
       "type": "Bank Deposit *",
-      "sent": { "value": 34567.0, "currency": "CNY" },
-      "received": { "value": 41.0, "currency": "CNY" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "CNY"
+      },
+      "received": {
+        "value": 41,
+        "currency": "CNY"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Cancelled"
     },
     {
@@ -557,10 +627,22 @@
       "time": "07:19",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Error"
     },
     {
@@ -573,10 +655,22 @@
       "time": "10:33",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Cancelled"
     },
     {
@@ -589,10 +683,22 @@
       "time": "08:45",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Completed"
     },
     {
@@ -605,10 +711,22 @@
       "time": "08:55",
       "payer": "Bank Wire",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Completed"
     },
     {
@@ -621,10 +739,22 @@
       "time": "11:22",
       "payer": "Bank Wire",
       "type": "Bank Deposit *",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Completed"
     },
     {
@@ -637,10 +767,22 @@
       "time": "08:14",
       "payer": "Bank Wire",
       "type": "Bank Deposit *",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Cancelled"
     },
     {
@@ -653,10 +795,22 @@
       "time": "07:19",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Error"
     },
     {
@@ -669,10 +823,22 @@
       "time": "10:33",
       "payer": "Instant Pay",
       "type": "Bank Deposit",
-      "sent": { "value": 34567.0, "currency": "USD" },
-      "received": { "value": 41.0, "currency": "USD" },
-      "fee": { "value": 1.0, "currency": "USD" },
-      "fx": { "value": 4.0, "currency": "USD" },
+      "sent": {
+        "value": 34567,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 41,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 4,
+        "currency": "USD"
+      },
       "status": "Cancelled"
     }
   ],
@@ -682,70 +848,100 @@
       "name": "Binance USD",
       "image": "https://criptonizando.com/wp-content/uploads/2022/02/E%CC%81-uma-boa-hora-para-comprar-Binance-Coin--750x375.png",
       "type": "Crypto",
-      "fee": { "amount": 13.0, "currency": "USD" }
+      "fee": {
+        "amount": 13,
+        "currency": "USD"
+      }
     },
     {
       "id": 2,
       "name": "Bitcoin",
       "image": "https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/pexels-pixabay-315788-scaled.jpg",
       "type": "Crypto",
-      "fee": { "amount": 8.0, "currency": "USD" }
+      "fee": {
+        "amount": 8,
+        "currency": "USD"
+      }
     },
     {
       "id": 3,
       "name": "Ethereum",
       "image": "https://www.forbes.com/advisor/wp-content/uploads/2021/03/ethereum-1.jpeg",
       "type": "Crypto",
-      "fee": { "amount": 8.0, "currency": "USD" }
+      "fee": {
+        "amount": 8,
+        "currency": "USD"
+      }
     },
     {
       "id": 4,
       "name": "DAI",
       "image": "https://image.coinpedia.org/wp-content/uploads/2022/06/01183955/Litecoin.webp",
       "type": "Crypto",
-      "fee": { "amount": 33.0, "currency": "USD" }
+      "fee": {
+        "amount": 33,
+        "currency": "USD"
+      }
     },
     {
       "id": 5,
       "name": "Tether",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tether_USDT.png/600px-Tether_USDT.png?20211129171143",
       "type": "Crypto",
-      "fee": { "amount": 3.0, "currency": "USD" }
+      "fee": {
+        "amount": 3,
+        "currency": "USD"
+      }
     },
     {
       "id": 6,
       "name": "USD Coin",
       "image": "https://img.freepik.com/free-psd/dollar-sign-gold-coin-icon-isolated-3d-render-illustration_439185-12780.jpg?w=740&t=st=1706876011~exp=1706876611~hmac=681b452fdbe20048c898622c174b893b9cb8a4b728efb48108634f1bd0782385",
       "type": "Crypto",
-      "fee": { "amount": 3.0, "currency": "USD" }
+      "fee": {
+        "amount": 3,
+        "currency": "USD"
+      }
     },
     {
       "id": 7,
       "name": "Issue Physical Card & Local Funds",
       "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 8,
       "name": "Issue Virtual Card & Local Funds",
       "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 9,
       "name": "Load Physical Card",
       "image": "https://images.ctfassets.net/2chiqpnroeav/6cyxFGrM524zKwZmK8ddGc/23e6c2fc7efd3ded05320702e9f05a84/article10532-checkoutcom-launches-customisable-virtual-and-physical-card-issuing.jpg?fm=avif&w=1536",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 10,
       "name": "Load Virtual Card",
       "image": "https://www.pymnts.com/wp-content/uploads/2020/12/conferma-pay-VISA-cropped.jpg?w=620",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     }
   ],
   "cards": [
@@ -754,12 +950,10 @@
       "type": "masspay",
       "title": "Masspay Wallet",
       "card_number": "7654",
-      "expiration": "12/30",
-      "cvv": "123",
       "active": true,
       "amount": {
         "currency": "USD",
-        "value": 27999.0
+        "value": 27999
       }
     },
     {
@@ -767,8 +961,6 @@
       "type": "visa",
       "title": "EUR Debit",
       "card_number": "0987",
-      "expiration": "12/30",
-      "cvv": "123",
       "active": true,
       "amount": {
         "currency": "EUR",
@@ -776,25 +968,10 @@
       }
     },
     {
-      "id": 127,
-      "type": "visa",
-      "title": "BRL Debit",
-      "card_number": "0123",
-      "expiration": "12/30",
-      "cvv": "321",
-      "active": true,
-      "amount": {
-        "currency": "BRL",
-        "value": 1002.0
-      }
-    },
-    {
       "id": 125,
       "type": "mastercard",
       "title": "EUR Debit",
       "card_number": "9876",
-      "expiration": "12/30",
-      "cvv": "123",
       "active": true,
       "amount": {
         "currency": "EUR",
@@ -806,13 +983,64 @@
       "type": "masspay",
       "title": "EUR Debit",
       "card_number": "1029",
-      "expiration": "12/30",
-      "cvv": "123",
       "active": true,
       "amount": {
         "currency": "EUR",
-        "value": 68000.0
+        "value": 68000
       }
+    },
+    {
+      "id": 127,
+      "type": "visa",
+      "title": "BRL Debit",
+      "card_number": "0123",
+      "active": true,
+      "amount": {
+        "currency": "BRL",
+        "value": 1002
+      }
+    }
+  ],
+  "card_info": [
+    {
+      "id": 123,
+      "type": "masspay",
+      "card_number": "1029",
+      "expiration": "12/30",
+      "cvv": "123",
+      "pin": "1234"
+    },
+    {
+      "id": 124,
+      "type": "visa",
+      "card_number": "5180303575624589",
+      "expiration": "12/31",
+      "cvv": "989",
+      "pin": "4321"
+    },
+    {
+      "id": 125,
+      "type": "mastercard",
+      "card_number": "5176715998893259",
+      "expiration": "12/31",
+      "cvv": "832",
+      "pin": "4321"
+    },
+    {
+      "id": 126,
+      "type": "masspay",
+      "card_number": "9876",
+      "expiration": "12/31",
+      "cvv": "312",
+      "pin": "4321"
+    },
+    {
+      "id": 127,
+      "type": "visa",
+      "card_number": "4532286435242577",
+      "expiration": "12/32",
+      "cvv": "507",
+      "pin": "9988"
     }
   ]
 }
