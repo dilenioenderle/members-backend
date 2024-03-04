@@ -184,6 +184,7 @@
     ]
   },
   "user_profile": {
+    "name": "John Doe",
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ==",
     "phone": "123 456 7890",
