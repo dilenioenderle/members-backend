@@ -185,17 +185,17 @@
   },
   "user_profile": {
     "name": "John Doe",
-    "mp_csrf_name": "mp_csrf64b6ea4947745",
-    "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ==",
-    "phone": "123 456 7890",
+    "phone": "1",
     "dob": "1987-05-27",
     "address1": "123 Main St",
     "address2": "",
     "country": "US",
     "state": "California",
-    "city": "Cidade",
+    "city": "",
     "zip": "90405",
-    "phone_confirmation_required": false
+    "phone_confirmation_required": true,
+    "mp_csrf_name": "mp_csrf64b6ea4947745",
+    "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
   "countries": [
     {
@@ -964,7 +964,7 @@
       "card_number": "0987",
       "active": true,
       "amount": {
-        "currency": "EUR",
+        "currency": "PNTS",
         "value": 23098.98
       }
     },
@@ -1002,46 +1002,12 @@
       }
     }
   ],
-  "card_info": [
-    {
-      "id": 123,
-      "type": "masspay",
-      "card_number": "1029",
-      "expiration": "12/30",
-      "cvv": "123",
-      "pin": "1234"
-    },
-    {
-      "id": 124,
-      "type": "visa",
-      "card_number": "5180303575624589",
-      "expiration": "12/31",
-      "cvv": "989",
-      "pin": "4321"
-    },
-    {
-      "id": 125,
-      "type": "mastercard",
-      "card_number": "5176715998893259",
-      "expiration": "12/31",
-      "cvv": "832",
-      "pin": "4321"
-    },
-    {
-      "id": 126,
-      "type": "masspay",
-      "card_number": "9876",
-      "expiration": "12/31",
-      "cvv": "312",
-      "pin": "4321"
-    },
-    {
-      "id": 127,
-      "type": "visa",
-      "card_number": "4532286435242577",
-      "expiration": "12/32",
-      "cvv": "507",
-      "pin": "9988"
-    }
-  ]
+  "card_info": {
+    "id": 124,
+    "type": "visa",
+    "card_number": "5180303575624589",
+    "expiration": "12/31",
+    "cvv": "989",
+    "pin": "4321"
+  }
 }
