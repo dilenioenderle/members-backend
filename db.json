@@ -850,6 +850,14 @@
       "fee": {
         "amount": 13,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -859,6 +867,14 @@
       "type": "Crypto",
       "fee": {
         "amount": 8,
+        "currency": "BTC"
+      },
+      "exchange_rate": {
+        "amount": 69837.3,
+        "currency": "USD"
+      },
+      "destination_amount": {
+        "amount": 931.96,
         "currency": "USD"
       }
     },
@@ -870,6 +886,14 @@
       "fee": {
         "amount": 8,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 3562.75,
+        "currency": "ETH"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "USD"
       }
     },
     {
@@ -880,6 +904,14 @@
       "fee": {
         "amount": 33,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -890,6 +922,14 @@
       "fee": {
         "amount": 3,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -900,6 +940,14 @@
       "fee": {
         "amount": 3,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -910,6 +958,14 @@
       "fee": {
         "amount": 3.5,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -920,6 +976,14 @@
       "fee": {
         "amount": 3.5,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -930,6 +994,14 @@
       "fee": {
         "amount": 3.5,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     },
     {
@@ -940,6 +1012,14 @@
       "fee": {
         "amount": 3.5,
         "currency": "USD"
+      },
+      "exchange_rate": {
+        "amount": 0.92,
+        "currency": "EUR"
+      },
+      "destination_amount": {
+        "amount": 931.96,
+        "currency": "EUR"
       }
     }
   ],
